@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&display=swap');
 *{
     background-color:#A882A8;
-    
+    margin:0px;
+    padding:0;
 }
 
  ul{
@@ -43,7 +44,7 @@ ul:nth-child(2){
 
 img{
     width:300px;
-    height:auto;
+    height:300px;
     border-radius:15px;
 }
 
@@ -67,8 +68,14 @@ section{
     color:white;
     position:relative;
     top:200px;
-    left:450px;
+    /* left:40vw; */
 }
+
+.uh{
+    position:relative;
+    left:40vw;
+}
+
 a{
     text-decoration: none ; 
 }
